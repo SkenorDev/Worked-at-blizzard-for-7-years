@@ -197,22 +197,37 @@ function aDraw()
 end
 
 function start()
-   names = {"WoodenCow", "Pegasus", "Minotaur", "Titan","Zeus","Midas","Aphrodite","Hera","Artemis","Persephone","Hephaestus","Dionysus","Hercules","Hades"}
+  local allNames = {
+    "WoodenCow", "Pegasus", "Minotaur", "Titan", "Zeus",
+    "Midas", "Aphrodite", "Hera", "Artemis", "Persephone",
+    "Hephaestus", "Dionysus", "Hercules", "Hades"
+  }
 
-  -- Add 5 copies of each card to the player's deck
-  for _, name in ipairs(names) do
-    for i = 1, 2 do
-      local newCard = createCard(name)  
-      table.insert(aDeck, newCard)      
+  -- Shuffle allNames manually
+  for i = #allNames, 2, -1 do
+    local j = math.random(i)
+    allNames[i], allNames[j] = allNames[j], allNames[i]
+  end
+
+  -- Use first 10 shuffled names for each deck
+  for i = 1, 10 do
+    for j = 1, 2 do
+      table.insert(aDeck, createCard(allNames[i]))
     end
   end
 
-  for _, name in ipairs(names) do
-    for i = 1, 2 do
-      local newCard = createCard(name)  
-      table.insert(eDeck, newCard)      
+  -- Shuffle again for enemy deck
+  for i = #allNames, 2, -1 do
+    local j = math.random(i)
+    allNames[i], allNames[j] = allNames[j], allNames[i]
+  end
+
+  for i = 1, 10 do
+    for j = 1, 2 do
+      table.insert(eDeck, createCard(allNames[i]))
     end
   end
+
 shuffle(eDeck)
 shuffle(aDeck)
 aDraw()
