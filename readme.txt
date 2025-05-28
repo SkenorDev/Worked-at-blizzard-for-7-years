@@ -1,4 +1,4 @@
-Card Back - https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgglounge.pt%2Fwp-content%2Fuploads%2F2022%2F12%2FYu-Gi-Oh-Card-Back-Sleeves-Japanese-Size.jpeg&f=1&nofb=1&ipt=59435d9b26bb93c352e4227a62a5aae10ffc15c7a8d489092ebf9521b0399f40
+
 
 Observer Pattern- Used the observer Pattern to allow cards to use actions from the state of the game
 
@@ -20,4 +20,6 @@ Observer Pattern- Used the observer Pattern to allow cards to use actions from t
  
  Overall Im proud of how I handled a lot of the aspects of the actual game state however I think a lot of refinement can be done with the card logic. Overall I'd like to use the observer pattern more and have cards
  simply take input of current gamestate and act off that, for instance if the mida card takes a reveal state it will act on it. I can see issues stemming from this such as calling reveal multiple times but I plan to work on 
- this for project 4 as I really want clean logic for the card function calls
+ this for project 4 as I really want clean logic for the card function calls.
+ 
+ Card Back - https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgglounge.pt%2Fwp-content%2Fuploads%2F2022%2F12%2FYu-Gi-Oh-Card-Back-Sleeves-Japanese-Size.jpeg&f=1&nofb=1&ipt=59435d9b26bb93c352e4227a62a5aae10ffc15c7a8d489092ebf9521b0399f40
