@@ -10,6 +10,7 @@ require "area"
 require "templates"
 
 function love.load()
+  love.window.setTitle("RatSoftware")
   screenWidth = 960
   screenHeight = 960
   love.window.setMode(screenWidth, screenHeight)
