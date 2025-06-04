@@ -26,4 +26,4 @@ Observer Pattern- Used the observer Pattern to allow cards to use actions from t
 
 
 NOTES accidently pushed to here while working on final project which may make things janky, I found 1 bugs on version I turned in at the time, the power calculation is broken but can be fixed with 2 lines. Also forgot to put in hand limit but is like 6 lines to add so 
-hopefully not big deal just forgot it.
+hopefully not big deal just forgot it. If more bugs arise, its from the jank code I accidently commited while working on final so try out the previous version (aka the one turned in near the due date) Sorry about this i really suck with github.
