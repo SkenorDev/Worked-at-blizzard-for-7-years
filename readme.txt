@@ -23,3 +23,7 @@ Observer Pattern- Used the observer Pattern to allow cards to use actions from t
  this for project 4 as I really want clean logic for the card function calls.
  
  Card Back - https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgglounge.pt%2Fwp-content%2Fuploads%2F2022%2F12%2FYu-Gi-Oh-Card-Back-Sleeves-Japanese-Size.jpeg&f=1&nofb=1&ipt=59435d9b26bb93c352e4227a62a5aae10ffc15c7a8d489092ebf9521b0399f40
+
+
+NOTES accidently pushed to here while working on final project which may make things janky, I found 1 bugs on version I turned in at the time, the power calculation is broken but can be fixed with 2 lines. Also forgot to put in hand limit but is like 6 lines to add so 
+hopefully not big deal just forgot it.
