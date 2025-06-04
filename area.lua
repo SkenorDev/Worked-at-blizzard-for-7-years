@@ -41,11 +41,6 @@ for i, card in ipairs(self.aPlay) do
   for i, card in ipairs(self.ePlay) do
     card:draw()
   end
-
-
-
-
-
 end
 
 

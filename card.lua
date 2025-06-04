@@ -71,4 +71,9 @@ for i, card in ipairs(areas[state].aPlay) do
 end
 
 
-
+function drawFindPos()
+  for i, card in ipairs(aHand) do
+   
+    card.position=Vector(200 +(100*i),700)
+  end
+  end
